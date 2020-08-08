@@ -1,7 +1,8 @@
 {
   "name": "nanometa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "module": "index.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"

@@ -2,6 +2,33 @@
 
 nanometa is a JavaScript library to aid metaprogramming and the creation of DSLs.
 
+## Installation
+
+If you're on node/npm:
+
+```sh
+$ npm i --save nanometa
+```
+
+Then `require('nanometa')` as usual.
+
+If you're on Deno or the browser, you can use one of the following CDN-based ES module import statements:
+
+```js
+import meta from 'https://unpkg.com/nanometa';
+import meta from 'https://cdn.skypack.dev/nanometa';
+```
+
+On the browser, don't forget to use the `type="module"` script tag attribute to enable ES module support:
+
+```html
+<script type="module">
+  import meta from '...';
+</script>
+```
+
+## Usage
+
 This is the kind of library that's most easily explained by means of an example. Imagine you're building a C metaprogramming DSL in JavaScript. The first part of the challenge would be to pick a DSL syntax that reads naturally in JavaScript. Something like this looks good enough to me:
 
 ```js

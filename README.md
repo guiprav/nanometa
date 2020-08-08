@@ -9,7 +9,7 @@ nanometa is a JavaScript library to aid metaprogramming and the creation of DSLs
 If you're on node/npm:
 
 ```sh
-$ npm i --save nanometa
+$ npm i -s nanometa
 ```
 
 Then `require('nanometa')` as usual.

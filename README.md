@@ -2,6 +2,8 @@
 
 nanometa is a JavaScript library to aid metaprogramming and the creation of DSLs.
 
+![It ain't much, but it's honest work](aint_much.jpg)
+
 ## Installation
 
 If you're on node/npm:

@@ -1,0 +1,17 @@
+{
+  "name": "nanometa",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [],
+  "author": "Gui Prá",
+  "license": "AGPL-3.0+",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "sinon": "^9.0.2"
+  }
+}

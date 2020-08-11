@@ -35,7 +35,7 @@ This is the kind of library that's most easily explained by means of an example.
 
 ```js
 c.file('hello.c', c => {
-  c.import('<stdio.h>');
+  c.include('<stdio.h>');
 
   c.func('main', c => {
     c.returns('int');
@@ -66,7 +66,7 @@ The code above will produce roughly the following JSON output:
 ```js
 [
   'hello.c', [
-    ['import', '<stdio.h>'],
+    ['include', '<stdio.h>'],
 
     ['func', 'main', [
       ['returns', 'int'],
